@@ -1,0 +1,112 @@
+.site-header {
+    height: 152px;
+    background: rgb(33, 35, 34);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.80) 100%);
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+
+    &__inner {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 2560px;
+        position: relative;
+        z-index: 15;
+    }
+
+    &__logo {
+        width: 60px;
+        line-height: 1;
+        margin-bottom: -5px;
+    }
+
+    &__nav-container {
+        color: white;
+        z-index: 10;
+
+        .wp-block-navigation__container {
+            gap: 2rem;
+        }
+
+        .wp-block-navigation__responsive-container.is-menu-open {
+            padding: 1rem 1rem 1rem 2rem;
+
+            .button {
+                background-color: white !important;
+                color: $primary !important;
+                display: inline-block;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .wp-block-navigation__container {
+                gap: 1.5rem;
+            }
+        }
+
+        .button {
+            padding-bottom: calc(0.5em - 1px);
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: calc(0.5em - 1px);
+
+            &::after {
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                content: "\f061";
+                //color: white;
+                margin-left: 8px;
+            }
+        }
+    }
+}
+
+//from 769px
+@include tablet {
+
+    .site-header {
+        &__logo {
+            width: 102px;
+        }
+    }
+
+}
+
+
+// .site-title {
+//     line-height: 0;
+//     margin: 0;
+
+//     a {
+//         align-items: center;
+//         display: flex;
+//     }
+// }
+
+// Nav container visibility fix
+// .nav-container {
+//     z-index: 10;
+// }
+
+// .nav-primary {
+//     .menu-main-menu-container .menu {
+//         display: flex;
+//         gap: 3rem;
+//         align-items: center;
+//         color: white;
+//         margin: 0;
+
+//         &-item {
+//             font-weight: bold;
+//         }
+//     }
+// }
+
+// // Delete the following styles when you start! (marked with --clip--)
+// // --clip--
+// .site-main {
+//     display: grid;
+// }

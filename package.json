@@ -1,0 +1,26 @@
+{
+  "name": "james-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start src/index.js blocks/banner.js blocks/genericheading.js blocks/genericbutton.js blocks/acf/**/*.js",
+    "dev": "wp-scripts start",
+    "devFast": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/icons": "^9.15.0",
+    "@wordpress/scripts": "*",
+    "axios": "^0.21.1",
+    "browser-sync": "^2.27.11",
+    "bulma": "^0.9.4",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "browser-sync-webpack-plugin": "^2.3.0"
+  }
+}

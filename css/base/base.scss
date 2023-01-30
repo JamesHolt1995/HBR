@@ -1,0 +1,19 @@
+body {
+    font-size: 16px !important;
+}
+
+.edit-post-visual-editor__post-title-wrapper {
+    text-align: center;
+
+    h1 {
+        font-size: 16px;
+        margin-bottom: 80px;
+
+        &:before {
+            content: "Page title: ";
+            opacity: 0.5;
+        }
+
+        //background-color: var(--light-grey);
+    }
+}

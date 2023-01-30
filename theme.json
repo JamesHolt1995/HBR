@@ -1,0 +1,101 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "primary",
+                    "color": "#0d3b66",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#ee964b",
+                    "name": "Secondary"
+                }
+            ]
+        },
+        "typography": {
+            "fluid": true,
+            "fontFamilies": [
+                {
+                    "fontFamily": "Work Sans, sans-serif",
+                    "slug": "work-sans",
+                    "name": "Work Sans"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "slug": "small",
+                    "size": "0.75rem",
+                    "name": "small"
+                },
+                {
+                    "slug": "normal",
+                    "size": "1rem",
+                    "name": "normal"
+                },
+                {
+                    "slug": "large",
+                    "size": "1.25rem",
+                    "name": "large"
+                },
+                {
+                    "slug": "larger",
+                    "size": "1.5rem",
+                    "name": "larger",
+                    "fluid": {
+                        "min": "1.25rem",
+                        "max": "1.5rem"
+                    }
+                },
+                {
+                    "slug": "huge",
+                    "size": "2rem",
+                    "name": "huge",
+                    "fluid": {
+                        "min": "1.5rem",
+                        "max": "2rem"
+                    }
+                },
+                {
+                    "slug": "massive",
+                    "size": "2.5rem",
+                    "name": "massive",
+                    "fluid": {
+                        "min": "2rem",
+                        "max": "2.5rem"
+                    }
+                },
+                {
+                    "slug": "gigantic",
+                    "size": "3rem",
+                    "name": "gigantic",
+                    "fluid": {
+                        "min": "2rem",
+                        "max": "3rem"
+                    }
+                },
+                {
+                    "slug": "display",
+                    "size": "4rem",
+                    "name": "display",
+                    "fluid": {
+                        "min": "1.5rem",
+                        "max": "4rem"
+                    }
+                }
+            ]
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "text": "#ffffff",
+                    "background": "var(--wp--preset--color--secondary)"
+                }
+            }
+        }
+    }
+}

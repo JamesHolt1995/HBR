@@ -1,0 +1,23 @@
+//fonts
+// font-family: 'DM Sans', sans-serif;
+// font-family: 'DM Serif Text', serif;
+
+//normalize
+@import "normalize.css";
+
+//variables
+@import "./base/variables.scss";
+@import "./base/base.scss";
+
+
+//bulma
+@import "../node_modules/bulma/bulma.sass";
+
+//font awesome
+@import "./font-awesome/css/all.min.css";
+
+//blocks
+@import "./blocks/banner.scss";
+@import "./blocks/testimonial.scss";
+@import "./blocks/video-banner.scss";
+@import "./blocks/header.scss";

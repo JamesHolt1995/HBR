@@ -1,0 +1,15 @@
+{
+    "name": "acf/video-banner",
+    "title": "Video Banner",
+    "description": "A custom video banner",
+    "keywords": [
+        "video",
+        "banner"
+    ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "video-banner.php"
+    },
+    "align": "full",
+    "script": "video_banner_scripts"
+}
